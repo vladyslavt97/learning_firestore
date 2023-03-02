@@ -6,7 +6,7 @@ type Props = {
 
 function Message({chat}: Props) {
 
-
+    //finally. Chat is an object with the message info!
   return <div>
     <div className="flex space-x-5 px-10 max-w-2xl mx-auto">
         <p className="pt-1 text-sm">
