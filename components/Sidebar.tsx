@@ -20,11 +20,11 @@ export default function Sidebar({}: Props) {
       return <h1>thinking...</h1>
     }
   return (
-    <div>
-      <div>Sidebar</div>
+    <div className='bg-yellow-300 flex-col w-[30%]'>
+      <div className='text-lg font-bold'>Sidebar component</div>
       {chats?.docs.map((chat, index) => (
         <div key={index}>
-          <h2>{chat.id}</h2>
+          <h2>* {chat.id}</h2>
         </div>
       ))}
   </div>
