@@ -8,9 +8,6 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const { data: session, status } = useSession()
-  if(status === "authenticated"){
-   console.log('ssse', session.user);
-  }
 
   return (
     <div className='h-[100vh]'>
