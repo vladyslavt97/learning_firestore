@@ -9,6 +9,10 @@ export default function Login({}: Props) {
         className="text-white font-bold text-3xl animate-pulse flex flex-row items-center mt-5 bg-slate-600 px-5 py-2 rounded-lg">
             Sign in with Github
         </button>
+        <button onClick={()=>signIn('google')} 
+        className="text-white font-bold text-3xl animate-pulse flex flex-row items-center mt-5 bg-slate-600 px-5 py-2 rounded-lg">
+            Sign in with Google
+        </button>
     </div>
   )
 }

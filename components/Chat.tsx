@@ -53,7 +53,7 @@ export default function Chat({}: Props) {
         > Sign Out </button>
         <div className="absolute top-6 right-0 flex flex-col-reverse justify-end items-end">
           <h1>{session?.user?.name}<br/>{session?.user?.email}</h1>
-          {session?.user?.image && <Image src={session?.user?.image} alt="some" width={100} height={100} className=" rounded-lg"/>}
+          {/* {session?.user?.image && <Image src={session?.user?.image} alt="some" width={100} height={100} className=" rounded-lg"/>} */}
         </div>
 
         <Sidebar />
